@@ -1,0 +1,3 @@
+﻿l_english:
+ edict_upgrade_planet_bulk_191:0 "Upgrade Buildings"
+ edict_upgrade_planet_bulk_191_desc:0 "Starts available building upgrades on this planet for mines, power plants and farms, including basic colony buildings. Normal construction costs and times apply."
