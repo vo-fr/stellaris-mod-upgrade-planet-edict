@@ -16,6 +16,10 @@ A lightweight planetary edict to upgrade **mines, power plants and farms** on th
 
 **Stellaris 1.9.1 only.** This is a legacy-version mod, not designed for current Stellaris releases. Other mods that replace planetary edicts or building definitions may conflict.
 
+## Steam Workshop
+
+[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3832926842) — Workshop item ID: `3832926842`.
+
 ## Manual installation
 
 1. Extract the release archive to `Documents/Paradox Interactive/Stellaris/mod/`.
