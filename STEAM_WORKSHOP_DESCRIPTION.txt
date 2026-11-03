@@ -1,0 +1,28 @@
+[h1]Upgrade Buildings — Stellaris 1.9.1[/h1]
+
+[b]A small quality-of-life mod for Stellaris 1.9.1 (Boulle).[/b]
+
+Tired of upgrading mines, power plants and farms one by one? Select a planet, open [b]Planetary Edicts[/b] and choose [b]Upgrade Buildings[/b]. The edict starts eligible upgrades on that planet using normal construction costs and build times.
+
+[h2]Features[/h2]
+[list]
+[*] Mines, power plants and hydroponic farms, including basic colony buildings
+[*] All 15 upgrade transitions, up to tier V where allowed
+[*] Technology requirements and capital restrictions respected
+[*] Skips buildings already under construction
+[*] Other buildings remain untouched
+[*] Seven languages: English, German, French, Spanish, Polish, Russian, Brazilian Portuguese
+[/list]
+
+[h2]How to use[/h2]
+1. Select one of your planets.
+2. Open Planetary Edicts.
+3. Choose Upgrade Buildings (or its translated title).
+
+[h2]Compatibility[/h2]
+[b]For Stellaris 1.9.1 only.[/b] Not intended for modern Stellaris versions. Disable older experimental versions of this mod to avoid conflicts. Back up important saves before adding mods.
+
+[h2]Source code[/h2]
+https://github.com/vo-fr/stellaris-mod-upgrade-planet-edict
+
+Unofficial community mod; not affiliated with Paradox Interactive.
