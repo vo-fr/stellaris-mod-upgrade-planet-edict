@@ -1,0 +1,195 @@
+# Experimental planetary edict for Stellaris 1.9.1
+planet_edict = {
+    name = "upgrade_planet_bulk_191"
+    influence_cost = 0
+    duration = 1
+    potential = { has_owner = yes owner = { is_ai = no } }
+    allow = { always = yes }
+    ai_weight = { weight = 0 }
+    modifier = { }
+    effect = {
+        if = {
+            limit = {
+                owner = { has_technology = tech_power_plant_1 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_basic_power_plant
+                    has_building_construction = no
+                }
+                add_building_construction = building_power_plant_1
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_basic_industry }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_basic_mine
+                    has_building_construction = no
+                }
+                add_building_construction = building_mining_network_1
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_eco_simulation }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_basic_farm
+                    has_building_construction = no
+                }
+                add_building_construction = building_hydroponics_farm_1
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_power_plant_2 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_power_plant_1
+                    has_building_construction = no
+                }
+                add_building_construction = building_power_plant_2
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_power_plant_3 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_power_plant_2
+                    has_building_construction = no
+                }
+                add_building_construction = building_power_plant_3
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_power_plant_4 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_power_plant_3
+                    has_building_construction = no
+                }
+                add_building_construction = building_power_plant_4
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_power_plant_4 }
+                is_capital = yes
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_power_plant_4
+                    has_building_construction = no
+                }
+                add_building_construction = building_power_plant_5
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_mining_network_2 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_mining_network_1
+                    has_building_construction = no
+                }
+                add_building_construction = building_mining_network_2
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_mining_network_3 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_mining_network_2
+                    has_building_construction = no
+                }
+                add_building_construction = building_mining_network_3
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_mining_network_4 }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_mining_network_3
+                    has_building_construction = no
+                }
+                add_building_construction = building_mining_network_4
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_mining_network_4 }
+                is_capital = yes
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_mining_network_4
+                    has_building_construction = no
+                }
+                add_building_construction = building_mining_network_5
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_hydroponics }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_hydroponics_farm_1
+                    has_building_construction = no
+                }
+                add_building_construction = building_hydroponics_farm_2
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_gene_crops }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_hydroponics_farm_2
+                    has_building_construction = no
+                }
+                add_building_construction = building_hydroponics_farm_3
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_nano_vitality_crops }
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_hydroponics_farm_3
+                    has_building_construction = no
+                }
+                add_building_construction = building_hydroponics_farm_4
+            }
+        }
+        if = {
+            limit = {
+                owner = { has_technology = tech_nano_vitality_crops }
+                is_capital = yes
+            }
+            every_tile = {
+                limit = {
+                    has_building = building_hydroponics_farm_4
+                    has_building_construction = no
+                }
+                add_building_construction = building_hydroponics_farm_5
+            }
+        }
+    }
+}
