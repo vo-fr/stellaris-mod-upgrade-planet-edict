@@ -14,7 +14,7 @@ A lightweight planetary edict to upgrade **mines, power plants and farms** on th
 
 ## Compatibility
 
-**Stellaris 1.9.1 only.** This is a legacy-version mod, not designed for current Stellaris releases. Not intended for Ironman/achievement compatibility. Other mods that replace planetary edicts or building definitions may conflict.
+**Stellaris 1.9.1 only.** This is a legacy-version mod, not designed for current Stellaris releases. Other mods that replace planetary edicts or building definitions may conflict.
 
 ## Manual installation
 
@@ -23,18 +23,16 @@ A lightweight planetary edict to upgrade **mines, power plants and farms** on th
 3. Enable **Upgrade Buildings (Stellaris 1.9.1)** in the launcher.
 4. Select a planet, open **Planetary Edicts**, and choose **Upgrade Buildings** (translated according to the game language).
 
-Disable older experimental upgrade test mods when using this release.
-
 ## Known limitations
 
 - Only mines, power plants and hydroponic farms are automated; branching upgrade choices are deliberately excluded.
 - Only the selected planet is affected.
 - The edict is repeatable; already-running construction is skipped.
-- The original mod logic was tested by a player in Stellaris 1.9.1; translations other than English/German have not been individually confirmed in-game.
+- The original mod logic was tested in Stellaris 1.9.1; translations other than English/German have not been individually confirmed in-game.
 
 ## Version history
 
-**1.0.0 — Workshop-ready candidate**: Retains the player-tested 15 upgrade rules and all seven localisations. Short German and English edict titles. Adds publication documentation.
+**1.0.0 — Workshop-ready candidate**: Retains the player-tested 15 upgrade rules and all seven localisations. Adds publication documentation.
 
 ## Credits
 
